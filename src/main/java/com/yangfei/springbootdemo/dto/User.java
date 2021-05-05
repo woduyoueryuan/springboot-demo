@@ -83,5 +83,6 @@ public  class User  implements BeanFactoryPostProcessor , BeanNameAware
         System.out.println("DisposableBean.destroy执行");
         String str ;
         System.out.println("23432");
+        System.out.println("2343");
     }
 }
