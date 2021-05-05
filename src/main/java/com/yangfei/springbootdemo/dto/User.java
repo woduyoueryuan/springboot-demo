@@ -82,5 +82,6 @@ public  class User  implements BeanFactoryPostProcessor , BeanNameAware
     public void destroy() throws Exception {
         System.out.println("DisposableBean.destroy执行");
         String str ;
+        System.out.println("23432");
     }
 }
